@@ -4,8 +4,8 @@
 			# interactive
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	ReadLine-Perl
+%define		pdir	Term
+%define		pnam	ReadLine-Perl
 Summary:	Term::ReadLine::Perl - minimal interface to Readline libraries
 Summary(pl):	Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
 Name:		perl-Term-ReadLine-Perl
