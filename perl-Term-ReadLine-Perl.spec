@@ -6,11 +6,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Term
 %define		pnam	ReadLine-Perl
-Summary:	Term::ReadLine::Perl Perl module
-Summary(pl):	Modu³ Perla Term::ReadLine::Perl
+Summary:	Term::ReadLine::Perl - minimal interface to Readline libraries
+Summary(pl):	Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
 Name:		perl-Term-ReadLine-Perl
 Version:	1.0203
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Term::ReadLine::Perl module is a quick implementation of the minimal
-interface to Readline libraries. The implementation is made in Perl
-(mostly) by Jeffrey Friedl. The only thing this library does is to
+interface to Readline libraries.  The implementation is made in Perl
+(mostly) by Jeffrey Friedl.  The only thing this library does is to
 make it conformant (and add some minimal changes, like using
 Term::ReadKey if present, and correct work under xterm).
 
@@ -59,5 +59,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc README CHANGES
 %{perl_vendorlib}/Term/ReadLine/*.pm
