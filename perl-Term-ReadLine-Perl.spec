@@ -9,13 +9,13 @@
 Summary:	Term::ReadLine::Perl - minimal interface to Readline libraries
 Summary(pl):	Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
 Name:		perl-Term-ReadLine-Perl
-Version:	1.0207
+Version:	1.0302
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	23d592a97e5f127c98a396e446799d44
+# Source0-md5:	b68fca52e071e5307670519609ab269c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
