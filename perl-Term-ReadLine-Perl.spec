@@ -7,7 +7,7 @@
 %define		pdir	Term
 %define		pnam	ReadLine-Perl
 Summary:	Term::ReadLine::Perl - minimal interface to Readline libraries
-Summary(pl):	Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
+Summary(pl.UTF-8):   Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
 Name:		perl-Term-ReadLine-Perl
 Version:	1.0302
 Release:	1
@@ -30,12 +30,12 @@ interface to Readline libraries.  The implementation is made in Perl
 make it conformant (and add some minimal changes, like using
 Term::ReadKey if present, and correct work under xterm).
 
-%description -l pl
-Modu³ Term::ReadLine::Perl jest szybk± implementacj± minimalnego
-interfejsu do bibliotek Readline. Implementacja w Perlu zosta³a w
-wiêkszo¶ci wykonana przez Jeffreya Friedla. Jedyn± rzecz±, jak± robi
+%description -l pl.UTF-8
+ModuÅ‚ Term::ReadLine::Perl jest szybkÄ… implementacjÄ… minimalnego
+interfejsu do bibliotek Readline. Implementacja w Perlu zostaÅ‚a w
+wiÄ™kszoÅ›ci wykonana przez Jeffreya Friedla. JedynÄ… rzeczÄ…, jakÄ… robi
 ta biblioteka, jest bycie zgodnym (i dodanie pewnych minimalnych
-zmian, w rodzaju u¿ywania Term::ReadKey je¶li istnieje oraz poprawnej
+zmian, w rodzaju uÅ¼ywania Term::ReadKey jeÅ›li istnieje oraz poprawnej
 pracy na xtermie).
 
 %prep
