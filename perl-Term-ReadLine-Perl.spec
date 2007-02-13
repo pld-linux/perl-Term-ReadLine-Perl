@@ -7,7 +7,7 @@
 %define		pdir	Term
 %define		pnam	ReadLine-Perl
 Summary:	Term::ReadLine::Perl - minimal interface to Readline libraries
-Summary(pl.UTF-8):   Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
+Summary(pl.UTF-8):	Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
 Name:		perl-Term-ReadLine-Perl
 Version:	1.0302
 Release:	1
