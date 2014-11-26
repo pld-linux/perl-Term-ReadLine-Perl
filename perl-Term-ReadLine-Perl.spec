@@ -2,10 +2,10 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 			# interactive
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	ReadLine-Perl
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::ReadLine::Perl - minimal interface to Readline libraries
 Summary(pl.UTF-8):	Term::ReadLine::Perl - minimalny interfejs do bibliotek Readline
 Name:		perl-Term-ReadLine-Perl
@@ -16,6 +16,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a77ecf4921cc714820fef898c6cb0eaf
+URL:		http://search.cpan.org/dist/Term-ReadLine-Perl/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -25,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Term::ReadLine::Perl module is a quick implementation of the minimal
-interface to Readline libraries.  The implementation is made in Perl
-(mostly) by Jeffrey Friedl.  The only thing this library does is to
+interface to Readline libraries. The implementation is made in Perl
+(mostly) by Jeffrey Friedl. The only thing this library does is to
 make it conformant (and add some minimal changes, like using
 Term::ReadKey if present, and correct work under xterm).
 
